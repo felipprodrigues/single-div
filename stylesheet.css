@@ -17,5 +17,10 @@ body {
     height: 250px;
     width: 250px;
     background-color: beige;
+    border-top-left-radius: 88px;
+    border-top-style: solid;
+    border-top-right-radius: 88px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
