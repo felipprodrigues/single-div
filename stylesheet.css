@@ -13,26 +13,41 @@ body {
     padding: 0;
 }
 
-#toaster {
-    content: '';
-    height: 285px;
-    width: 250px;
-    border: 7px solid #FDD88A;
-    border-top-width: 15px;
-    border-top-left-radius: 88px;
-    border-top-style: solid;
-    border-top-right-radius: 88px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    background-image: radial-gradient(#ffe0b3, #ffa64d 90%);
+#crowbar {
+    width: 550px;
+    height: 30px;
+    border: 2px solid red;
+    transform: rotate(58deg);
+    background-color: red;
+    box-sizing: border-box;
+
 }
 
-#toaster::before {
-    content: '';
-    background-image: linear-gradient(#ff8c1a, #c60);
+#crowbar::before,
+#crowbar::after {
+    content: '';   
+    display: flex;
+    position: relative;
+    background-color: silver;
+    border: none;
+    width: 150px;
+    height: 30px;
 }
 
-#toaster::after {
+#crowbar::before {
+    border-color: grey;
+    right: 151px;
+    bottom: 1.5px;
+    /* box-shadow: ; */
+}
+
+#crowbar::after {
     content: '';
+    left: 548px;   
+    bottom: 85.75px;
+    box-shadow: 0px -29px;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    transform: rotate(-62deg);
 }
 
