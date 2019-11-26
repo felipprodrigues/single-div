@@ -32,13 +32,14 @@ body {
     border: none;
     width: 150px;
     height: 30px;
+    /* codar 2 caixas */
 }
 
 #crowbar::before {
     border-color: grey;
     right: 151px;
     bottom: 1.5px;
-    /* box-shadow: ; */
+    /* usar border-radius pra definir curvatura ; */
 }
 
 #crowbar::after {
