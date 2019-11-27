@@ -41,6 +41,7 @@ body {
 #crowbar::before {
     right: 151px;
     bottom: 1.5px;
+    border-radius: 67% 0 0 70%;
     /* usar border-radius pra definir curvatura ; */
 }
 
@@ -48,6 +49,7 @@ body {
     content: '';
     left: 548px;
     bottom: 262.75px;
+    border-radius: 67% 0 0 70%;
     transform: rotate(179deg);
     }
 
