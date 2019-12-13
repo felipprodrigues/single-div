@@ -15,14 +15,14 @@ body {
 
 #crowbar {
     width: 550px;
-    height: 30px;
-    border: 2px solid red;
+    height: 15px;
+    /* border: 2px solid #A42B3D; */
     transform: rotate(58deg);
-    background-color: red;
-    box-sizing: border-box;
-    box-shadow: inset 0 21px 42px -17px #F1D3CE;  
-    box-shadow: 0px 9px darkred;
-    border-bottom-color:white;  
+    background-color: #A42B3D;
+    box-sizing: border-box;  
+    /* box-shadow: 0 21px 42px -17px #F1D3CE, 0 43px 99px 9px; */
+    border-bottom:1px solid white;  
+    box-shadow: 0 15px #8D2333;
 
 }
 
@@ -34,7 +34,7 @@ body {
     width: 150px;
     height: 115px;
     border-radius: 42% 0 0 46%;
-    border: 30px solid grey;
+    border: 15px solid grey;
     border-bottom: none;
     border-right: none;
     /* codar 2 caixas */ 
@@ -43,7 +43,7 @@ body {
 
 #crowbar::before {
     right: 151px;
-    bottom: 1.5px;
+    /* bottom: 1.5px; */
     border-radius: 67% 0 0 70%;
     box-shadow: inset 22px 9px darkgrey;
     /* usar border-radius pra definir curvatura ; */
